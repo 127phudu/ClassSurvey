@@ -1,0 +1,441 @@
+body,
+html {
+    height: 100%;
+}
+
+.scroll {
+    background: rgba(0, 0, 0, .6);
+    transition-duration: 5s;
+}
+.lentop {display:none; bottom: 5%; right: 10px; cursor: pointer;  position: fixed; z-index: 1000;}
+.lentop div {background:#ff0d0d7a; border:2px solid #fff; border-radius:45px; padding:11px 12.5px; box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.3)}
+.lentop img {width:32x; height:32px;}
+
+header.scroll hr.style1 {
+    height: 0px;
+}
+
+footer {
+    bottom: 0px;
+    z-index: 10000;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition-duration: 3s;
+    z-index: 10000;
+}
+
+a {
+    color: #fff;
+}
+
+.form-search {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #10cdeb;
+    border-radius: 10px;
+    outline: none;
+    padding: 12px 14px;
+    transition: 0.6s ease-in-out;
+}
+
+form {
+    margin-bottom: 0px !important;
+}
+
+.form-search:focus {
+    width: 500px;
+}
+
+.navbar-brand {
+    margin-right: 0px;
+}
+
+.rgba-gradient {
+    height: 100%;
+    background: -webkit-linear-gradient(45deg,rgba(161, 83, 27, 0.66), rgba(23, 255, 255, 0.45) 100%);
+    /*background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);*/
+}
+
+.btn-search {
+    color: #f8f9fa;
+    background-color: transparent;
+    background-image: none;
+}
+
+hearder-top {
+    border-bottom-color: #eaebee;
+}
+
+hr.style1 {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+hr.style2 {
+    border-top: 3px double #8c8b8b;
+    border-color: #fff;
+}
+
+a.btn {
+    border-color: #fff;
+    border-width: 1px;
+}
+
+a.btn:hover {
+    color:#dc3545;
+    border-width: 0px;
+    font-weight: 800;
+}
+
+.login {
+    background-image: linear-gradient(284deg, #5563b1, #2dde98);
+    padding: 11px 30px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #fff;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.login:hover {
+    text-decoration: none;
+    color: #5563b1;
+    font-weight: 800;
+}
+.login-content{
+    color: #fff;
+}
+.login-content:hover {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+#image1 {
+    wight: 10%;
+    height: 10%;
+}
+
+#phieu {
+    height: 80px;
+    width: 80px;
+}
+
+.img-course {
+    height: 90px;
+    width: auto;
+    max-width: 250px;
+}
+
+.Courses {
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+}
+
+footer {
+    background-color: #182338;
+}
+
+#p1 {
+    color: #f3f3f4;
+}
+
+#p2 {
+    color: #f3f3f4;
+}
+
+#p3 {
+    color: #a5a8b0
+}
+
+/* Sign */
+
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+
+    .social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+    }
+
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+
+    .card-header h3{
+    color: white;
+    }
+
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    }
+
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+
+    }
+
+    .remember{
+    color: white;
+    }
+
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+
+    .login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    }
+    .login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+    .card{
+        top: 170px;
+    }
+/* Sinh vien */
+
+@media only screen and (min-width: 1200px) {
+    .main-sidebar {
+        top: 66px;
+    }
+    .frame {
+        padding-top: 66px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .mobile-sidebar {
+        top: 66px;
+    }
+    .main-sidebar {
+        top: 66px;
+        display: none;
+    }
+    .frame {
+        padding-top: 66px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .mobile-sidebar {
+        display: none;
+        top: 66px;
+    }
+    .main-sidebar {
+        top: 66px;
+    }
+    .frame {
+        padding-top: 66px;
+        padding-left: 250px;
+    }
+}
+
+@media only screen and (width: 768px) {
+    .mobile-sidebar {
+        top: 66px;
+    }
+    .main-sidebar {
+        display: none;
+        top: 66px;
+    }
+    .frame {
+        padding-top: 66px;
+    }
+}
+
+.btn .nameuser {
+    color: #fff;
+    font-size: 14px;
+}
+
+.main-sidebar {
+    z-index: 2;
+    position: fixed;
+    width: 235px;
+    height: 100%;
+    background:  #007bff99;
+    color: #fff;
+}
+
+.mobile-sidebar {
+    z-index: 2;
+    position: fixed;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    width: 768px;
+}
+
+button#course {
+    background: none;
+    border: none;
+}
+
+
+
+#list-survey {
+    transition: height 4s;
+}
+
+.tag-sidebar {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    background: none;
+    border: none;
+}
+
+.tag-sidebar:hover {
+    color: #f0e731;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.frame {
+    z-index: 1;
+}
+
+.card-course {
+    color: #fff;
+    background-color: #1d1d1d;
+}
+
+
+.info-card {
+    padding-left: 10px;
+}
+
+.info-card .icon {
+    height: 32px;
+    width: 32px;
+}
+
+.icon-check {
+    height: 48px;
+    width: 48px;
+}
+
+.tree-toggle {
+    height: 15px;
+    width: 15px;
+}
+
+.icontree {
+    height: 30x;
+    width: 30px;
+}
+.icontree-min{
+    height: 15x;
+    width: 15px;
+}
+
+
+/*porfile*/
+
+.main-profile {
+    padding-top: 84px;
+}
+
+.img-profile {
+    height: 250px;
+    width: 250px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    background-image: url('./study.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+    padding: 0px;
+    z-index: 50;
+}
+
+.uploadImgButton {
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 185px;
+    width: 242px;
+    height: 110px;
+    border-bottom-right-radius: 45px;
+    opacity: 0;
+    z-index: 30;
+}
+
+.uploadImgButton:hover {
+    opacity: 10;
+}
+
+.img-avarta {
+    opacity: 0;
+    width: 10px !important;
+}
+
+.uploadImgButton img {
+    padding-left: 90px;
+    height: 80px;
+}
+
+.info-profile {
+    padding-left: 33%;
+}
+
+
+/* Courses */
+
+.percent-courses {
+    color: rgb(39, 253, 92);
+}
+.img-course-ds {
+    width: 100%;
+    height	: 326px;
+}
+.card-course{
+    max-width: 462px;
+    max-height: 462px;
+    border-style: solid;
+    border-color:rgba(29, 210, 177, 0.7);
+    box-shadow: 5px 5px 5px #666;
+}
+
+/* Survery */
+
+#input-note{
+    height: 150px;
+}
+
+
+/* ketquadanhgia */

@@ -1,0 +1,196 @@
+.myContainer {
+    background-color: white;
+    padding: 15px;
+    width: 97%;
+}
+
+.myContainer .main-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.myContainer .main-button2 {
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.content-header h1{
+    text-align: center;
+    margin-left: -15%;
+}
+
+.modal {
+    box-sizing: border-box;
+}
+
+.modal  .modal-dialog  .modal-content {
+    background-color: white;
+    box-sizing: border-box;
+}
+.modal  .modal-dialog  .modal-content .form {
+    margin-top: 120px
+}
+
+.modal  .modal-dialog  .modal-content .form form {
+    box-sizing: border-box;
+    padding: 20px;
+}
+.modal  .modal-dialog  .modal-content  h2 {
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #3c8dbc;
+    color: #c2e9ff;
+}
+
+.modal  .modal-dialog  .modal-content  h3 {
+    margin: 0;
+}
+
+.modal  .modal-dialog  .modal-content  .submitBtn {
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+.modal  .modal-dialog  .modal-content  .closeBtn {
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .modal  .modal-dialog  .modal-content  .submitBtn {
+        margin-left: 15%;
+    }
+
+    .modal  .modal-dialog  .modal-content  .closeBtn {
+        margin-left: 10%;
+    }
+}
+
+
+
+
+#generateSurvey .modal-dialog {
+    width: 60%;
+}
+#generateSurvey .modal-dialog  .modal-content {
+    padding: 30px;
+}
+
+#generateSurvey .modal-dialog  .modal-content button[type=submit] {
+    margin-left: 40%;
+}
+
+#generateSurvey .date label{
+    display: inline-block;
+    float: left;
+    font-size: 19px;
+    line-height: 25px;
+    margin: 0;
+}
+
+#generateSurvey .survey h5 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#generateSurvey .survey label {
+    display: block;
+    margin-left: 40px;
+}
+
+
+#showSurvey .modal-dialog {
+    width: 60%;
+}
+
+#showSurvey .modal-dialog .time, .list-survey {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#showSurvey .modal-dialog .modal-content h3 {
+    font-size: 20px;
+}
+
+#showSurvey .modal-dialog .modal-content h5{
+    margin-left: 25px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+#showSurvey .modal-dialog .modal-content button {
+    margin-bottom: 15px;
+    margin-left: 40%;
+}
+
+
+#showSurvey .modal-dialog li{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 25px;
+}
+
+
+
+
+#editSurvey .modal-dialog {
+    width: 60%;
+}
+
+#editSurvey .form {
+    background: white;
+    margin: 0;
+}
+
+#editSurvey .form .date label{
+    display: inline-block;
+    float: left;
+    font-size: 19px;
+    line-height: 25px;
+    margin: 0;
+}
+
+#editSurvey .form .date input[type="date"] {
+    display: inline-block;
+    float: left;
+    width: 60%;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+#editSurvey .form .survey h4{
+    font-size: 20px;
+}
+
+#editSurvey .form .survey h5{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#editSurvey .form .survey .row {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+#editSurvey .form .survey label {
+    display: block;
+    margin-left: 25px;
+}
+#editSurvey .form .survey label input[type="checkbox"] {
+    margin-top: 6px;
+}
+
+#editSurvey .form .survey label span {
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+#editSurvey form button[type="button"] {
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
